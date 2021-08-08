@@ -108,8 +108,6 @@
   text-transform: uppercase;
 
   color: #ffffff;
-
-  text-align: center;
 }
 
 @media screen and (max-width: 767px) {
@@ -534,6 +532,7 @@
     text-transform: uppercase;
 
     color: #ffffff;
+    display: block;
   }
 
   .social-list__item:not(:last-child) {
