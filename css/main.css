@@ -496,7 +496,7 @@ img {
   .main-section {
     background-size: cover;
     background-color: #2f303a;
-    background-image: url("/images/Header-mobile@1.jpg");
+    background-image: url("../images/Header-mobile@1.jpg");
     display: flex;
     padding-top: 118px;
     padding-bottom: 118px;
@@ -527,7 +527,7 @@ img {
 @media screen and (min-width: 768px) {
   .main-section {
     background-size: cover;
-    background-image: url("/images/hero-tablet@1.jpg");
+    background-image: url("../images/hero-tablet@1.jpg");
     background-color: #2f303a;
     display: flex;
     flex-direction: column;
