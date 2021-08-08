@@ -44,6 +44,10 @@
   }
 }
 
+.mobile-nav-list {
+  margin-bottom: 150px;
+}
+
 .mobile-menu.is-open {
   opacity: 1;
   visibility: visible;
@@ -107,7 +111,6 @@
 }
 
 .mobile-contacts-list {
-  margin-top: 302px;
 }
 
 .mobile-contacts-list__link {
@@ -405,7 +408,4 @@
   .header-contacts {
     display: none;
   }
-}
-
-@media screen and (min-width: 1200px) {
 }
