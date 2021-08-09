@@ -2,7 +2,11 @@
   .main-section {
     background-size: cover;
     background-color: #2f303a;
-    background-image: url("../images/Header-mobile@1.jpg");
+    background-image: radial-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../images/Header-mobile@1.jpg");
     display: flex;
     padding-top: 118px;
     padding-bottom: 118px;
@@ -35,7 +39,11 @@
 @media screen and (min-width: 768px) {
   .main-section {
     background-size: cover;
-    background-image: url("../images/hero-tablet@1.jpg");
+    background-image: radial-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../images/hero-tablet@1.jpg");
     background-color: #2f303a;
     display: flex;
     flex-direction: column;

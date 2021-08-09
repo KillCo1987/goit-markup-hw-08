@@ -44,8 +44,12 @@
   }
 }
 
+.mobile-menu__wrapper {
+  position: absolute;
+  bottom: 48px;
+}
+
 .mobile-nav-list {
-  margin-bottom: 150px;
 }
 
 .mobile-menu.is-open {
@@ -76,7 +80,7 @@
 }
 
 .mobile-menu__container {
-  position: relative;
+  // position: relative;
   padding-top: 48px;
   padding-left: 40px;
   padding-bottom: 48px;
